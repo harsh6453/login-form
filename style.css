@@ -4,11 +4,11 @@
 .form{
     height: 100%;
     width: 100%;
-    background-image:  url(bg.jpg);
+    background-image:  url(bgg.jpg);
     background-position: center;
     background-size: cover;
     position:absolute;
-    background-image: linear-gradient(black);
+    background-image: linear-gradient(rgb(7, 7, 7));
 }
 .form-box{
     width: 350px;
@@ -20,7 +20,7 @@
     align-items: center;
     overflow: hidden;
     border-radius: 10px;
-    background: #f8f8f8;
+    background: #fafbfb;
 }
 .btnbox{
     width:252px;
