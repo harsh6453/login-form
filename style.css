@@ -1,15 +1,15 @@
 *{
     font-family: sans-serif;
 }
-.form{
+.form {
     height: 100%;
     width: 100%;
-    background-image:  url(bgg.jpg);
+    background-image:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)),url(bgg.jpg);
     background-position: center;
     background-size: cover;
-    position:absolute;
-    background-image: linear-gradient(rgb(7, 7, 7));
+    position: absolute;
 }
+
 .form-box{
     width: 350px;
     height: 450px;
