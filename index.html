@@ -13,8 +13,8 @@
         <div class="form-box">
             <div class="btnbox">
                 <div id="btn"></div>
-                <button class="toggle">Log In</button>
-                <button class="toggle">Register</button>
+                <button class="toggle" onclick="login()">Log In</button>
+                <button class="toggle" onclick="register()">Register</button>
             </div>
             <div class="icons">
                 <img src="g.png">
@@ -24,18 +24,19 @@
             <form id="Login1" class="input">
                 <input type="text" class="input1" placeholder="User Id" required>
                 <input type="text" class="input1" placeholder="Password" required>
-                <input type="checkbox" class="checkbox"><span>Remember Password</span>
+               <div class="div"><input type="checkbox" class="checkbox"><span>Remember Password</span></div>
                 <button type="submit" id="login">Login</button>
             </form>
             <form id="Register" class="input">
                 <input type="text" class="input1" placeholder="User Id" required>
                 <input type="email" class="input1" placeholder="Email Id" required>
                 <input type="text" class="input1" placeholder="Password" required>
-                <input type="checkbox" class="checkbox"><span>Terms & Conditions</span>
+               <div class="container"> <input type="checkbox" class="checkbox"><span>Terms & Conditions</span></div>
                 <button type="submit" id="login">Register</button>
             </form>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
