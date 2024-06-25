@@ -69,7 +69,7 @@
      margin-bottom: 20px;
      margin-left: px;
      margin-right: 60px;
-     text-align: center;
+     /* text-align: center; */
      transition: .5s;
      
 }
@@ -97,8 +97,8 @@
     border: 0;
 }
 .checkbox{
-   margin-top: 20px;
-   margin-left:20px; 
+   margin-top: 30px;
+   margin-left:10px; 
 }
 span{
     color: #777;
