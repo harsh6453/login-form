@@ -54,11 +54,11 @@
     text-align: center; 
 }
 .icons img{
-    width:25px;
-    padding: 7px;
+    width:30px;
+    padding: 1px;
     box-shadow: 0 0 20px 0  rgb(207, 223, 238)  ;
     cursor:pointer;
-    border-radius: 10px;
+    border-radius: 50%;
     margin: 0px 5px;
 }
 .input{
